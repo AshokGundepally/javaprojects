@@ -4,7 +4,7 @@ import java.net.URL;
 import java.net.URI;
 import java.net.URL;
 public class Weather {
-    private final String API_KEY = "fa26090c54c1b985c80915f4b59d59c1";
+    private final String API_KEY = "your_api_key";
     private final String BASE_URL = "http://api.openweathermap.org/data/2.5/forecast";
 
     public String getForecast(String city) throws IOException {
